@@ -1,0 +1,24 @@
+{
+  "name": "claim-api",
+  "version": "1.0.0",
+  "description": "API for claiming website system (INR token)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.webservice-host.net/inery_dev/claim-api.git"
+  },
+  "author": "Milan Gojkovic",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}
